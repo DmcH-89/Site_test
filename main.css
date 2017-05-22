@@ -1,0 +1,44 @@
+* {
+	font-family: "Open Sans";
+}
+body {
+    background: linear-gradient(to bottom, #5b5151, #564c4c);	
+}
+#logo {
+	font-family: monospace;
+	background-color: #39a88a;
+	color: #88d7c7; 
+	padding: 2px;
+	margin: 2%;
+}
+
+.main-menu ul{
+	background-color: #cbf9d3; 
+	background: linear-gradient(to top, #cbf9d3, #e0f1c3);
+	list-style: none;
+	margin: 10 auto; 
+	width: 80%;
+	overflow: hidden;
+	padding 0; 
+	border: 4px dashed #a2d5a9;
+}
+
+.main-menu li{
+	float: left; 
+}
+
+.main-menu a{
+	-webkit-transition: all 0.5s ease;
+	text-decoration: none;
+	display: block;
+	padding:  16px;
+	background-color: #a2d5a9;
+	/* background: linear-gradient(to top, #a2d5a9, #bbcc99); */
+	border-right: 4px solid #88d7c7;
+}
+
+.main-menu a:hover{
+	-webkit-transition: all 0.5s ease;
+	/*background: linear-gradient(to top, #557b83, #39aea9);*/
+	background-color: #499093; 
+}
